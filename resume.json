@@ -191,21 +191,23 @@
       "organization": "MadridJS Meetup",
       "position": "Co-Organizer and member",
       "website": "http://www.meetup.com/es/madridjs/",
-      "startDate": "2011-08",
+      "startDate": "2011-08-01",
+      "endDate": "2015-12-31",
       "summary": "Co-Organizer of MadridJS, helping with talks and organization but with the lack of time, just member since 2015"
     },
     {
       "organization": "HTML5 Spain Meetup",
       "position": "Member",
       "website": "http://www.meetup.com/es/HTML5-Spain/",
-      "startDate": "2012-02"
+      "startDate": "2012-02-01",
+      "endDate": "2015-12-31"
     },
     {
       "organization": "JavaScript study group",
       "position": "Member",
       "website": "http://gejs.jottit.com/",
-      "startDate": "2011-08",
-      "endDate": "2011-09",
+      "startDate": "2011-08-01",
+      "endDate": "2011-09-30",
       "summary": "Study group formed by several members of the JavaScript community in Madrid to learn and debate about JavaScript ecosystem."
     }
   ],
