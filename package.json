@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install": "git submodule init && git submodule update",
+    "test": "node node_modules/resume-cli/index.js test",
     "generate-html": "node node_modules/resume-cli/index.js export out/resume.html",
     "generate-pdf": "node node_modules/resume-cli/index.js export out/resume.pdf",
     "start": "npm run generate-html && npm run generate-pdf",

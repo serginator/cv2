@@ -5,7 +5,7 @@ My CV following [JSON Resume](https://json-schema.org/) schema.
 
 # Resume
 
-- [PDF](out/resume.pdf)
+- [PDF (doesn't work right now)](out/resume.pdf)
 - [HTML](out/resume.html)
 - [JSON](resume.json)
 - [https://registry.jsonresume.org/serginator](https://registry.jsonresume.org/serginator)
@@ -20,8 +20,11 @@ npm i --no-save
 npm run install
 ```
 
+## validate resume.json
+`npm test`
+
 ## generate files from resume.json
-`npm run start`
+`npm start`
 
 ## deploy to jsonresume.org
 `npm run deploy`
