@@ -5,7 +5,7 @@ My CV following [JSON Resume](https://json-schema.org/) schema.
 
 # Resume
 
-- [PDF (doesn't work right now)](out/resume.pdf)
+- [PDF](out/resume.pdf)
 - [HTML](out/resume.html)
 - [JSON](resume.json)
 - [https://registry.jsonresume.org/serginator](https://registry.jsonresume.org/serginator)
