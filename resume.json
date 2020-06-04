@@ -41,7 +41,7 @@
       "website": "http://www.aurigae.com/",
       "position": "Programmer Analyst",
       "startDate": "2012-12-10",
-      "summary": "Software Developer at Telefónica I+D. I've worked mainly focused in full-stack javascript, continuous integration and evangelist of best practices, most of the time at video area developing the UI of Movistar TV set-top-boxes for LATAM, now at Cloud area developing CloudBlue APS for our CSB.",
+      "summary": "Software Developer at Telefónica I+D. I've worked mainly focused in full-stack javascript, continuous integration and evangelist of best practices, most of the time at video area developing the UI of Movistar TV set-top-boxes for LATAM, now at Cloud area developing CloudBlue APS/Connect for our CSB, both connectors and endpoints.",
       "highlights": [
         "2019-09 # Telefonica - Cloud Service Broker: CSB is a panel to manage users, assign resources or services, handle your account as a user... It uses Cloud Blue (POA and PBA). Development of several APS 2.2 / Connect Apps to integrate external services in CSB, front-end (in Dojo Toolkit), back-end in PHP for APS, lambdas in Python for Connect, and Node.js. For LATAM mostly.",
         "2019-01 - 2019-03 # Bankia: A simple Angular 1.x application to check fraudulent usage in ATMs",
