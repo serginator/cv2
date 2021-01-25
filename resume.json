@@ -37,13 +37,13 @@
   },
   "work": [
     {
-      "company": "AURIGAE",
-      "website": "http://www.aurigae.com/",
+      "company": "SERQUO (formerly known as AURIGAE)",
+      "website": "http://www.serquo.com/",
       "position": "Programmer Analyst",
       "startDate": "2012-12-10",
       "summary": "Software Developer at Telefónica I+D. I've worked mainly focused in full-stack javascript, continuous integration and evangelist of best practices, most of the time at video area developing the UI of Movistar TV set-top-boxes for LATAM, now at Cloud area developing CloudBlue APS/Connect for our CSB, both connectors and endpoints.",
       "highlights": [
-        "2019-09 # Telefonica - Cloud Service Broker: CSB is a panel to manage users, assign resources or services, handle your account as a user... It uses Cloud Blue (POA and PBA). Development of several APS 2.2 / Connect Apps to integrate external services in CSB, front-end (in Dojo Toolkit), back-end in PHP for APS, lambdas in Python for Connect, and Node.js. For LATAM mostly.",
+        "2019-09 # Telefonica - Cloud Service Broker: CSB is a panel to manage users, assign resources or services, handle your account as a user... It uses Cloud Blue (POA and PBA). Development of several APS 2.2 / Connect Apps to integrate external services in CSB, back-end in AWS lambdas using Python/Node.js.",
         "2019-01 - 2019-03 # Bankia: A simple Angular 1.x application to check fraudulent usage in ATMs",
         "2017-01 - 2019-01 # Movistar TV - Hybrid HTML: The same but using HTML instead of SVG, and Webpack instead of Grunt.js. In 2017 we made it in Vue.js, in 2018 we removed it and did everything with Webcomponents.",
         "2015-01 - 2019-01 # Movistar TV - Hybrid SVG: Development of the UI of a set-top box (STB) with satellite/cable and internet connection for TVApps and VOD, using SVG and JavaScript to communicate with the middleware. Also I've installed and configured all the continuous integration environment with Jenkins and Sonar, and made the Grunt.js tasks to automate everything, from linting or testing to opening pull requests automagically integrating Crowdin with new translations from the OBs.",
@@ -274,7 +274,7 @@
     },
     {
       "name": "SCM",
-      "level": "Advanced",
+      "level": "Expert",
       "keywords": [
         "Git",
         "Github",
@@ -294,7 +294,8 @@
         "Nessus",
         "OpenVAS",
         "aircrack-ng",
-        "Nikto"
+        "Nikto",
+        "burpsuite"
       ]
     },
     {
@@ -333,11 +334,7 @@
     },
     {
       "name": "guitar playing",
-      "summary": "I've played guitar since 2003 during 8 years, currently on hold due to lack of time."
-    },
-    {
-      "name": "magic tricks",
-      "summary": "Studied and practice card tricks for several years, currently on hold due to lack of time."
+      "summary": "I've played guitar since 2003 during 8 years, stopped for several years and trying to play again."
     },
     {
       "name": "Japanese",
