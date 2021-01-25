@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "install": "git submodule init && git submodule update",
-    "test": "node node_modules/resume-cli/index.js test",
-    "generate-html": "node node_modules/resume-cli/index.js export out/resume.html",
-    "generate-pdf": "node node_modules/resume-cli/index.js export out/resume.pdf",
+    "test": "node node_modules/.bin/resume validate",
+    "generate-html": "node node_modules/.bin/resume export --format html out/resume.html",
+    "generate-pdf": "node node_modules/.bin/resume export --format pdf out/resume.pdf",
     "start": "npm run generate-html && npm run generate-pdf",
-    "serve": "node node_modules/resume-cli/index.js serve",
+    "serve": "node node_modules/.bin/resume serve",
     "push-to-gist": "cp resume.json gist; cd gist; git add resume.json; git commit -m 'added changes'; git push origin HEAD:master; cd -",
     "push-to-ghpages": "gh-pages -d out -m 'Pushed gh-pages'",
     "deploy": "npm run push-to-ghpages && npm run push-to-gist"
@@ -31,6 +31,6 @@
   "homepage": "https://registry.jsonresume.org/serginator",
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "resume-cli": "^1.2.7"
+    "resume-cli": "^3.0.4"
   }
 }
