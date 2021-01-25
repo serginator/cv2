@@ -2,12 +2,11 @@ CV
 ==
 
 My CV following [JSON Resume](https://json-schema.org/) schema.
-You can watch it [here](http://serginator.github.io/cv2/resume.html)
 
 # Resume
 
 - [PDF](out/resume.pdf)
-- [HTML](out/resume.html)
+- [HTML](http://serginator.github.io/cv2/resume.html)
 - [JSON](resume.json)
 - [https://registry.jsonresume.org/serginator](https://registry.jsonresume.org/serginator)
 
