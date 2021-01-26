@@ -1,718 +1,882 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Sergio Ruiz</title>
-    <meta name="description" content="**FullStack JavaScript developer with 9+ years industry experience, since the age of 6 with computers and since the age of 12 dealing with code**, with strong skills in code quality, performance and continuous integration. Capacity to learn new languages and adaptability to new environments in no time thanks to his overall knowledge of languages and operative systems." />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
-    <style>:root {
-  /* Colors */
-  --primaryColor: #212529;
-  --secondaryColor: #95a5a6;
-  --accentColor: #f1c40f;
-  --linkColor: #2ecc71;
-  --mutedColor: #f4f6f6;
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Sergio Ruiz</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
 
-  /* Typography */
-  --ratio: 1.25;
-  --scale0: 1rem;
-  --scale1: calc(var(--scale0) * var(--ratio));
-  --scale2: calc(var(--scale1) * var(--ratio));
-  --scale3: calc(var(--scale2) * var(--ratio));
-  --scale4: calc(var(--scale3) * var(--ratio));
-  --scale5: calc(var(--scale4) * var(--ratio));
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
 }
 
-* {
-  box-sizing: border-box;
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
   margin: 0;
   padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
 }
-
-html {
-  font-size: 14px;
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
 }
-
-body {
-  color: var(--primaryColor);
-  display: grid;
-  font: 1em/1.5 Lato, sans-serif;
-  gap: 2em;
-  grid-template-columns:
-    [full-start]
-    1fr
-    [main-start side-start]
-    minmax(min-content, 12em)
-    [side-end content-start]
-    minmax(min-content, 36em)
-    [main-end content-end]
-    1fr
-    [full-end];
-  grid-template-rows: auto [content] 0;
-  margin-bottom: 4em;
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
 }
-
-body::before {
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
   content: '';
-  grid-column: full;
-  grid-row: content;
+  display: block;
 }
 
-ol,
-ul {
-  padding-left: 1em;
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-li + li {
-  margin-top: 0.2em;
-}
-
-li::marker {
-  color: var(--mutedColor);
-}
-
-a {
-  color: var(--linkColor);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-a:focus,
-a:hover {
-  color: var(--accentColor);
-}
-
-h1,
-h2,
-h3,
-h5 {
-  font-weight: normal;
-}
-
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-}
-
-h1 {
-  font-size: var(--scale5);
-}
-
-h2 {
-  color: var(--secondaryColor);
-  font-size: var(--scale4);
-}
-
-h3 {
-  color: var(--accentColor);
-  font-size: var(--scale3);
-  grid-column: side;
-  margin-bottom: 1rem;
-}
-
-h4 {
-  font-size: var(--scale2);
-}
-
-h5 {
-  font-size: var(--scale1);
-}
-
-h6 {
-  font-size: var(--scale0);
-}
-
-blockquote {
-  border-left: 0.2em solid var(--mutedColor);
-  padding-left: 1em;
-}
-
-cite {
-  color: var(--secondaryColor);
-  font-style: inherit;
-}
-
-cite::before {
-  content: '— ';
-}
-
-.masthead {
-  background: var(--mutedColor);
-  display: inherit;
-  gap: inherit;
-  grid-column: full;
-  grid-template-columns: inherit;
-  padding: 4em 0;
-  row-gap: 0;
-}
-
-.masthead > *,
-section {
-  grid-column: main;
-}
-
-article > * + *,
-blockquote > * + * {
-  margin-top: 0.6em;
-}
-
-.stack {
-  display: grid;
-  gap: 1.5em;
-}
-
-.grid-list {
-  display: grid;
-  gap: 1em;
-}
-
-.spaced-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.spaced-list:first-child::before {
-  border-bottom: 1px solid var(--mutedColor);
-  content: '';
-  flex-grow: 1;
-  margin: 0 1em;
-  order: 1;
-}
-
-.spaced-list > :nth-child(2) {
-  order: 2;
-}
-
-.tag-list {
-  display: flex;
-  flex-wrap: wrap;
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
   list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
   padding: 0;
 }
 
-.tag-list > li {
-  background: var(--mutedColor);
-  margin: 0 0.2em 0.2em 0;
-  padding: 0.2em 0.6em;
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
 }
 
-@media print, (min-width: 48em) {
-  h3 {
-    text-align: right;
-    margin-bottom: inherit;
-  }
-
-  .masthead > *,
-  section {
-    grid-column: content;
-  }
-
-  section {
-    display: contents;
-  }
-
-  .grid-list {
-    grid-template-columns: 1fr 1fr;
-  }
+.contact-item{
+  width: 100%;
+  float: left;
 }
-</style>
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
   </head>
   <body>
-      <header class="masthead">
-          <h1>Sergio Ruiz</h1>
-          <h2>FullStack JavaScript Developer</h2>
-      </header>
-      <section id="contact">
-        <h3>Contact</h3>
-        <div class="grid-list">
-            <div>
-              <h4>Email</h4>
-              <a href="mailto:serginator@gmail.com">serginator@gmail.com</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;8ed40a0d594ec378fdcfb59daa4150a5?s&#x3D;200&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="avatar">
             </div>
+            <div id="text-header" >
+              <h1>Sergio Ruiz<br><span>FullStack JavaScript Developer</span></h1>
+            </div>
+          </div>
         </div>
-      </section>
-        <section id="about">
-          <h3>About</h3>
-          <article>
-            <p><strong>FullStack JavaScript developer with 9+ years industry experience, since the age of 6 with computers and since the age of 12 dealing with code</strong>, with strong skills in code quality, performance and continuous integration. Capacity to learn new languages and adaptability to new environments in no time thanks to his overall knowledge of languages and operative systems.</p>
-          </article>
-        </section>
-        <section id="profiles">
-          <h3>Profiles</h3>
-          <div class="grid-list">
-              <div>
-                  <h4>GitHub</h4>
-                    <a href="https://github.com/serginator">serginator</a>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>**FullStack JavaScript developer with 9+ years industry experience, since the age of 6 with computers and since the age of 12 dealing with code**, with strong skills in code quality, performance and continuous integration. Capacity to learn new languages and adaptability to new environments in no time thanks to his overall knowledge of languages and operative systems.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      
+                    </div>
+                    <div class="year">December 2012 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Programmer Analyst</div>
+                    <div class="description">
+                      Software Developer at Telefónica I+D. I've worked mainly focused in full-stack javascript, continuous integration and applying best practices, most of the time at video area developing the UI of Movistar TV set-top-boxes for LATAM, now at Cloud area developing CloudBlue APS/Connect for our CSB, both connectors and endpoints.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">2019-03 # Telefonica - Cloud Service Broker: CSB is a panel to manage users, assign resources or services, handle your account as a user... It uses Cloud Blue (POA and PBA). Development of several APS 2.2 / Connect Apps to integrate external services in CSB, back-end in AWS lambdas using Python/Node.js.</li>
+                        <li class="list-group-item">2019-01 - 2019-03 # Bankia: A simple Angular 1.x application to check fraudulent usage in ATMs</li>
+                        <li class="list-group-item">2017-01 - 2019-01 # Movistar TV - Hybrid HTML: The same but using HTML instead of SVG, and Webpack instead of Grunt.js. In 2017 we made it in Vue.js, in 2018 we removed it and did everything with Webcomponents.</li>
+                        <li class="list-group-item">2015-01 - 2019-01 # Movistar TV - Hybrid SVG: Development of the UI of a set-top box (STB) with satellite/cable and internet connection for TVApps and VOD, using SVG and JavaScript to communicate with the middleware. Also I've installed and configured all the continuous integration environment with Jenkins and Sonar, and made the Grunt.js tasks to automate everything, from linting or testing to opening pull requests automagically integrating Crowdin with new translations from the OBs.</li>
+                        <li class="list-group-item">2015-02 - 2015-03 # Movistar TV - GO: Movistar TV web application, which allows to watch Live TV and VOD content, and handle your subscriptions, view the EPG and more. Joined the team for one month to speed development of new features.</li>
+                        <li class="list-group-item">2015-01 - 2019-01 # Movistar TV - Chromecast Receiver: Chromecast Receiver for the mobile applications of Movistar TV, which handles to play Live TV and VOD on Chromecast. Developed in Angular JS. Also installed and configured all the continuous integration environment with Jenkins and Sonar, and made the Grunt.js tasks to automate everything, from linting or testing to opening pull requests automagically integrating Crowdin with new translations from the OBs.</li>
+                        <li class="list-group-item">2014-01 - 2014-11 # Telefonica - Cloud Service Broker: CSB is a panel to manage users, assign resources or services, handle your account as a user... It uses Parallels (POA and PBA). Development of an APS 1.2 to integrate McAfee Multi Access in CSB, front-end (in Dojo Toolkit) and back-end (in Node.js), for O2 (UK and GER) and VIVO (Brazil). Also made all the ci environment.</li>
+                        <li class="list-group-item">2013-07 - 2014-02 # Telefonica - Feedapp: Web application made with the magic of Meteor.js and Lungo.js, connected to our internal LDAP server to handle logins. After finishing it, we ported all the Lungo.js part to Firefox building blocks as some of the members of the team were members of Firefox OS and wanted to use it in their devices. This app allows to send feedback to people personally or anonymously about projects, behavior...</li>
+                        <li class="list-group-item">2012-12 - 2013-12 # Movistar TV - Hybrid: Development of the UI of a set-top box (STB) with satellite/cable and internet connection for TVApps and VOD, using SVG and JavaScript to communicate with the middleware. Also I've installed and configured all the continuous integration environment with Jenkins and Sonar, and made the Grunt.js tasks to automate everything, from linting or testing to opening pull requests automagically integrating Crowdin with new translations from the OBs.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div>
-                  <h4>Twitter</h4>
-                    <a href="https://twitter.com/serginator">serginator</a>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      
+                    </div>
+                    <div class="year">January 2012 – December 2012</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Systems Integration Consultant - Programmer</div>
+                    <div class="description">
+                      Programmer at System Integration, I've been developing a social network, Android apps, rest services at BBVA GAE project, sites with Google Sites for internal documentation at BBVA and Telepizza's mobile app.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">2012-09 - 2012-12 # Telepizza - Mobile app development: Development of the Smartphone/Tablet application, with our own javascript framework to load all sections dynamically in a single page application.</li>
+                        <li class="list-group-item">2012-06 - 2012-09 # BBVA - Google App Engine (GAE) Team: Development of services and apps for BBVA using Google App Engine (GAE). After the development of several REST services, I created some documentation webs for internal projects using Google Sites and developing gadgets in Google Apps Script.</li>
+                        <li class="list-group-item">2012-02 - 2012-02 # HEEL - Android application: Development of a tablet application (Android) for a pharmaceutical laboratory. This app is used to let pharmacists to fill and sign contracts of sale and purchase, with a pharmacy database. It captures the form as a digital image and stores the filled form in CVS format to post-process it.</li>
+                        <li class="list-group-item">2011-06 - 2012-06 # TUYYOU - Development of a Social Network: Continuing the development.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div>
-                  <h4>LinkedIn</h4>
-                    <a href="https://www.linkedin.com/in/serginator">serginator</a>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      
+                    </div>
+                    <div class="year">June 2011 – January 2012</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Systems Integration Consultant - Junior Programmer</div>
+                    <div class="description">
+                      Junior Programmer at System Integration developing a social network.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">2011-06 - 2012-06 # TUYYOU - Development of a Social Network: Social network development using ELGG and modifying it's core. It pretended to join a buying platform with a professional network, offering the possibility to earn money from your referrals. It was running for several years, being announced in several media around the country.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
           </div>
-        </section>
+          <!-- VOLUNTEER -->
+          <div class="box">
+            <h2><i class= "fas fa-users ico"></i> Volunteer</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Game development in JavaScript</div>
+                    <div class="year">March 2012 – March 2012</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Speaker</div>
+                    <div class="description">
+                      It was a conference @etnassoft and I did about Game Development in JavaScript. It was in CAMON, with around 90 attendees.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Video: https://vimeo.com/39259983</li>
+                        <li class="list-group-item">Slides: http://www.serginator.com/juegos-en-js/#/home</li>
+                        <li class="list-group-item">Info about the session: http://lanyrd.com/2012/madridjs/sdqxgc/</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Game programming in JavaScript</div>
+                    <div class="year">December 2013 – December 2013</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Speaker</div>
+                    <div class="description">
+                      Advanced workshop on how to develop a game without libraries, plain JavaScript, for the GameMe5 event. In this workshop we showed and explained in four hours, step by step, a shootem up demo.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Repo with more info and code: https://github.com/serginator/workshopGameMe5</li>
+                        <li class="list-group-item">The game can be played here: http://serginator.github.io/workshopGameMe5</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">MadridJS Meetup</div>
+                    <div class="year">August 2011 – December 2015</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Co-Organizer and member</div>
+                    <div class="description">
+                      Co-Organizer of MadridJS, helping with talks and organization but with the lack of time, just member since 2015
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">HTML5 Spain Meetup</div>
+                    <div class="year">February 2012 – December 2015</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Member</div>
+                    <div class="description">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">JavaScript study group</div>
+                    <div class="year">August 2011 – September 2011</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Member</div>
+                    <div class="description">
+                      Study group formed by several members of the JavaScript community in Madrid to learn and debate about JavaScript ecosystem.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:serginator@gmail.com" target="_blank">serginator@gmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-github fa-fw"></span></div>
+              <div class="title pull-right">GitHub</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;serginator" target="_blank">serginator</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-twitter fa-fw"></span></div>
+              <div class="title pull-right">Twitter</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;serginator" target="_blank">serginator</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;serginator" target="_blank">serginator</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2018 2018</div>
+                <div class="description pull-right">
+                  <h3>Imagina Formación</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Course</p>
+                  <p>ES6, Polymer and WebComponents</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2017 2017</div>
+                <div class="description pull-right">
+                  <h3>Imagina Formación</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Course</p>
+                  <p>Web Development with React JS</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2016 2016</div>
+                <div class="description pull-right">
+                  <h3>Imagina Formación</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Course</p>
+                  <p>Design and concepualization of videogames</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2016 2016</div>
+                <div class="description pull-right">
+                  <h3>Imagina Formación</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Course</p>
+                  <p>Web development with Node.js</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2016 2016</div>
+                <div class="description pull-right">
+                  <h3>Imagina Formación</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Course</p>
+                  <p>Responsive Frameworks</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2015 2016</div>
+                <div class="description pull-right">
+                  <h3>Imagina Formación</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Course</p>
+                  <p>Web development with Angular JS</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2013 2013</div>
+                <div class="description pull-right">
+                  <h3>Rice University</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Course</p>
+                  <p>An Introduction to Interactive Programming in Python</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2011 2012</div>
+                <div class="description pull-right">
+                  <h3>Universidad Nacional de Educación a Distancia - UNED</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Course</p>
+                  <p>Software development for Android devices</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2010 2010</div>
+                <div class="description pull-right">
+                  <h3>Universidad Complutense de Madrid - UCM</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Course</p>
+                  <p>Dreamweaver CS4</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2005 2010</div>
+                <div class="description pull-right">
+                  <h3>Universidad Complutense de Madrid - UCM</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Engineering</p>
+                  <p>Engineering in Computer Science (Not finished)</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Web Development
+                  <span class="skill-level">Advanced</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">HTML5</span>
+                <span class= "skill badge">CSS3</span>
+                <span class= "skill badge">LESS</span>
+                <span class= "skill badge">JavaScript</span>
+                <span class= "skill badge">REST</span>
+                <span class= "skill badge">AJAX</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  JavaScript
+                  <span class="skill-level">Expert</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">ES6</span>
+                <span class= "skill badge">jQuery</span>
+                <span class= "skill badge">AngularJS</span>
+                <span class= "skill badge">Vue.js</span>
+                <span class= "skill badge">ReactJS</span>
+                <span class= "skill badge">WebComponents</span>
+                <span class= "skill badge">Polymer</span>
+                <span class= "skill badge">Zepto.js</span>
+                <span class= "skill badge">Underscore</span>
+                <span class= "skill badge">lodash</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Backend
+                  <span class="skill-level">Advanced</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Node.js</span>
+                <span class= "skill badge">PHP</span>
+                <span class= "skill badge">Python</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  CI
+                  <span class="skill-level">Advanced</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Jenkins</span>
+                <span class= "skill badge">Sonar</span>
+                <span class= "skill badge">Grunt.js</span>
+                <span class= "skill badge">Webpack</span>
+                <span class= "skill badge">npm</span>
+                <span class= "skill badge">Unix</span>
+                <span class= "skill badge">Docker</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Databases
+                  <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">MySQL</span>
+                <span class= "skill badge">SQLite</span>
+                <span class= "skill badge">NoSQL</span>
+                <span class= "skill badge">MongoDB</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  SCM
+                  <span class="skill-level">Expert</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Git</span>
+                <span class= "skill badge">Github</span>
+                <span class= "skill badge">SVN</span>
+                <span class= "skill badge">TFS</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Security
+                  <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">nMap</span>
+                <span class= "skill badge">netcat</span>
+                <span class= "skill badge">Wireshark</span>
+                <span class= "skill badge">ettercap</span>
+                <span class= "skill badge">MSF</span>
+                <span class= "skill badge">Nessus</span>
+                <span class= "skill badge">OpenVAS</span>
+                <span class= "skill badge">aircrack-ng</span>
+                <span class= "skill badge">Nikto</span>
+                <span class= "skill badge">burpsuite</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Design
+                  <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Photoshop</span>
+                <span class= "skill badge">Zbrush</span>
+                <span class= "skill badge">Softimage|XSI</span>
+                <span class= "skill badge">Terragen</span>
+                <span class= "skill badge">Gimp 2</span>
+                <span class= "skill badge">Inkscape</span>
+              </div>
+            </div>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2><i class="fas fa-heart ico"></i> Interests</h2>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  travelling
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  reading
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  watching movies and tv shows
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  video games
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  music
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  guitar playing
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Japanese
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <section id="work">
-        <h3>Work</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4></h4>
-                  <span>
-                    <time datetime="2012-12-10">Dec 2012</time> –
-                    Present
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Programmer Analyst</strong>
-                </div>
-              </header>
-                <p>Software Developer at Telefónica I+D. I've worked mainly focused in full-stack javascript, continuous integration and applying best practices, most of the time at video area developing the UI of Movistar TV set-top-boxes for LATAM, now at Cloud area developing CloudBlue APS/Connect for our CSB, both connectors and endpoints.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>2019-03 # Telefonica - Cloud Service Broker: CSB is a panel to manage users, assign resources or services, handle your account as a user... It uses Cloud Blue (POA and PBA). Development of several APS 2.2 / Connect Apps to integrate external services in CSB, back-end in AWS lambdas using Python/Node.js.</li>
-                    <li>2019-01 - 2019-03 # Bankia: A simple Angular 1.x application to check fraudulent usage in ATMs</li>
-                    <li>2017-01 - 2019-01 # Movistar TV - Hybrid HTML: The same but using HTML instead of SVG, and Webpack instead of Grunt.js. In 2017 we made it in Vue.js, in 2018 we removed it and did everything with Webcomponents.</li>
-                    <li>2015-01 - 2019-01 # Movistar TV - Hybrid SVG: Development of the UI of a set-top box (STB) with satellite/cable and internet connection for TVApps and VOD, using SVG and JavaScript to communicate with the middleware. Also I&#x27;ve installed and configured all the continuous integration environment with Jenkins and Sonar, and made the Grunt.js tasks to automate everything, from linting or testing to opening pull requests automagically integrating Crowdin with new translations from the OBs.</li>
-                    <li>2015-02 - 2015-03 # Movistar TV - GO: Movistar TV web application, which allows to watch Live TV and VOD content, and handle your subscriptions, view the EPG and more. Joined the team for one month to speed development of new features.</li>
-                    <li>2015-01 - 2019-01 # Movistar TV - Chromecast Receiver: Chromecast Receiver for the mobile applications of Movistar TV, which handles to play Live TV and VOD on Chromecast. Developed in Angular JS. Also installed and configured all the continuous integration environment with Jenkins and Sonar, and made the Grunt.js tasks to automate everything, from linting or testing to opening pull requests automagically integrating Crowdin with new translations from the OBs.</li>
-                    <li>2014-01 - 2014-11 # Telefonica - Cloud Service Broker: CSB is a panel to manage users, assign resources or services, handle your account as a user... It uses Parallels (POA and PBA). Development of an APS 1.2 to integrate McAfee Multi Access in CSB, front-end (in Dojo Toolkit) and back-end (in Node.js), for O2 (UK and GER) and VIVO (Brazil). Also made all the ci environment.</li>
-                    <li>2013-07 - 2014-02 # Telefonica - Feedapp: Web application made with the magic of Meteor.js and Lungo.js, connected to our internal LDAP server to handle logins. After finishing it, we ported all the Lungo.js part to Firefox building blocks as some of the members of the team were members of Firefox OS and wanted to use it in their devices. This app allows to send feedback to people personally or anonymously about projects, behavior...</li>
-                    <li>2012-12 - 2013-12 # Movistar TV - Hybrid: Development of the UI of a set-top box (STB) with satellite/cable and internet connection for TVApps and VOD, using SVG and JavaScript to communicate with the middleware. Also I&#x27;ve installed and configured all the continuous integration environment with Jenkins and Sonar, and made the Grunt.js tasks to automate everything, from linting or testing to opening pull requests automagically integrating Crowdin with new translations from the OBs.</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4></h4>
-                  <span>
-                    <time datetime="2012-01-01">Jan 2012</time> –
-                    <time datetime="2012-12-10">Dec 2012</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Systems Integration Consultant - Programmer</strong>
-                </div>
-              </header>
-                <p>Programmer at System Integration, I've been developing a social network, Android apps, rest services at BBVA GAE project, sites with Google Sites for internal documentation at BBVA and Telepizza's mobile app.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>2012-09 - 2012-12 # Telepizza - Mobile app development: Development of the Smartphone/Tablet application, with our own javascript framework to load all sections dynamically in a single page application.</li>
-                    <li>2012-06 - 2012-09 # BBVA - Google App Engine (GAE) Team: Development of services and apps for BBVA using Google App Engine (GAE). After the development of several REST services, I created some documentation webs for internal projects using Google Sites and developing gadgets in Google Apps Script.</li>
-                    <li>2012-02 - 2012-02 # HEEL - Android application: Development of a tablet application (Android) for a pharmaceutical laboratory. This app is used to let pharmacists to fill and sign contracts of sale and purchase, with a pharmacy database. It captures the form as a digital image and stores the filled form in CVS format to post-process it.</li>
-                    <li>2011-06 - 2012-06 # TUYYOU - Development of a Social Network: Continuing the development.</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4></h4>
-                  <span>
-                    <time datetime="2011-06-24">Jun 2011</time> –
-                    <time datetime="2012-01-01">Jan 2012</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Systems Integration Consultant - Junior Programmer</strong>
-                </div>
-              </header>
-                <p>Junior Programmer at System Integration developing a social network.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>2011-06 - 2012-06 # TUYYOU - Development of a Social Network: Social network development using ELGG and modifying it&#x27;s core. It pretended to join a buying platform with a professional network, offering the possibility to earn money from your referrals. It was running for several years, being announced in several media around the country.</li>
-                </ul>
-            </article>
-        </div>
-      </section>
-      <section id="volunteer">
-        <h3>Volunteer</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Game development in JavaScript</h4>
-                  <span>
-                    <time datetime="2012-03-22">Mar 2012</time> –
-                    <time datetime="2012-03-22">Mar 2012</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Speaker</strong>
-                </div>
-              </header>
-                <p>It was a conference @etnassoft and I did about Game Development in JavaScript. It was in CAMON, with around 90 attendees.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Video: https://vimeo.com/39259983</li>
-                    <li>Slides: http://www.serginator.com/juegos-en-js/#/home</li>
-                    <li>Info about the session: http://lanyrd.com/2012/madridjs/sdqxgc/</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Game programming in JavaScript</h4>
-                  <span>
-                    <time datetime="2013-12-13">Dec 2013</time> –
-                    <time datetime="2013-12-13">Dec 2013</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Speaker</strong>
-                </div>
-              </header>
-                <p>Advanced workshop on how to develop a game without libraries, plain JavaScript, for the GameMe5 event. In this workshop we showed and explained in four hours, step by step, a shootem up demo.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Repo with more info and code: https://github.com/serginator/workshopGameMe5</li>
-                    <li>The game can be played here: http://serginator.github.io/workshopGameMe5</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>MadridJS Meetup</h4>
-                  <span>
-                    <time datetime="2011-08-01">Aug 2011</time> –
-                    <time datetime="2015-12-31">Dec 2015</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Co-Organizer and member</strong>
-                </div>
-              </header>
-                <p>Co-Organizer of MadridJS, helping with talks and organization but with the lack of time, just member since 2015</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>HTML5 Spain Meetup</h4>
-                  <span>
-                    <time datetime="2012-02-01">Feb 2012</time> –
-                    <time datetime="2015-12-31">Dec 2015</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Member</strong>
-                </div>
-              </header>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>JavaScript study group</h4>
-                  <span>
-                    <time datetime="2011-08-01">Aug 2011</time> –
-                    <time datetime="2011-09-30">Sep 2011</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Member</strong>
-                </div>
-              </header>
-                <p>Study group formed by several members of the JavaScript community in Madrid to learn and debate about JavaScript ecosystem.</p>
-            </article>
-        </div>
-      </section>
-      <section id="education">
-        <h3>Education</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Imagina Formación</h4>
-                  <span>
-                    <time datetime="2018-10-01">Oct 2018</time> –
-                    <time datetime="2018-12-01">Dec 2018</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>ES6, Polymer and WebComponents</strong>
-                </div>
-              </header>
-                <p>Course</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Imagina Formación</h4>
-                  <span>
-                    <time datetime="2017-05-01">May 2017</time> –
-                    <time datetime="2017-06-01">Jun 2017</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web Development with React JS</strong>
-                </div>
-              </header>
-                <p>Course</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Imagina Formación</h4>
-                  <span>
-                    <time datetime="2016-11-01">Nov 2016</time> –
-                    <time datetime="2016-12-01">Dec 2016</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Design and concepualization of videogames</strong>
-                </div>
-              </header>
-                <p>Course</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Imagina Formación</h4>
-                  <span>
-                    <time datetime="2016-09-01">Sep 2016</time> –
-                    <time datetime="2016-10-01">Oct 2016</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web development with Node.js</strong>
-                </div>
-              </header>
-                <p>Course</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Imagina Formación</h4>
-                  <span>
-                    <time datetime="2016-02-01">Feb 2016</time> –
-                    <time datetime="2016-04-01">Apr 2016</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Responsive Frameworks</strong>
-                </div>
-              </header>
-                <p>Course</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Imagina Formación</h4>
-                  <span>
-                    <time datetime="2015-12-01">Dec 2015</time> –
-                    <time datetime="2016-02-01">Feb 2016</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Web development with Angular JS</strong>
-                </div>
-              </header>
-                <p>Course</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Rice University</h4>
-                  <span>
-                    <time datetime="2013-10-09">Oct 2013</time> –
-                    <time datetime="2013-12-09">Dec 2013</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>An Introduction to Interactive Programming in Python</strong>
-                </div>
-              </header>
-                <p>Course</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Universidad Nacional de Educación a Distancia - UNED</h4>
-                  <span>
-                    <time datetime="2011-07-01">Jul 2011</time> –
-                    <time datetime="2012-10-01">Oct 2012</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Software development for Android devices</strong>
-                </div>
-              </header>
-                <p>Course</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Universidad Complutense de Madrid - UCM</h4>
-                  <span>
-                    <time datetime="2010-03-01">Mar 2010</time> –
-                    <time datetime="2010-05-01">May 2010</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Dreamweaver CS4</strong>
-                </div>
-              </header>
-                <p>Course</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Universidad Complutense de Madrid - UCM</h4>
-                  <span>
-                    <time datetime="2005-10-01">Oct 2005</time> –
-                    <time datetime="2010-12-01">Dec 2010</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Engineering in Computer Science (Not finished)</strong>
-                </div>
-              </header>
-                <p>Engineering</p>
-            </article>
-        </div>
-      </section>
-      <section id="skills">
-        <h3>Skills</h3>
-        <div class="grid-list">
-            <div>
-                <h4>Web Development</h4>
-                <ul class="tag-list">
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>LESS</li>
-                    <li>JavaScript</li>
-                    <li>REST</li>
-                    <li>AJAX</li>
-                </ul>
-            </div>
-            <div>
-                <h4>JavaScript</h4>
-                <ul class="tag-list">
-                    <li>ES6</li>
-                    <li>jQuery</li>
-                    <li>AngularJS</li>
-                    <li>Vue.js</li>
-                    <li>ReactJS</li>
-                    <li>WebComponents</li>
-                    <li>Polymer</li>
-                    <li>Zepto.js</li>
-                    <li>Underscore</li>
-                    <li>lodash</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Backend</h4>
-                <ul class="tag-list">
-                    <li>Node.js</li>
-                    <li>PHP</li>
-                    <li>Python</li>
-                </ul>
-            </div>
-            <div>
-                <h4>CI</h4>
-                <ul class="tag-list">
-                    <li>Jenkins</li>
-                    <li>Sonar</li>
-                    <li>Grunt.js</li>
-                    <li>Webpack</li>
-                    <li>npm</li>
-                    <li>Unix</li>
-                    <li>Docker</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Databases</h4>
-                <ul class="tag-list">
-                    <li>MySQL</li>
-                    <li>SQLite</li>
-                    <li>NoSQL</li>
-                    <li>MongoDB</li>
-                </ul>
-            </div>
-            <div>
-                <h4>SCM</h4>
-                <ul class="tag-list">
-                    <li>Git</li>
-                    <li>Github</li>
-                    <li>SVN</li>
-                    <li>TFS</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Security</h4>
-                <ul class="tag-list">
-                    <li>nMap</li>
-                    <li>netcat</li>
-                    <li>Wireshark</li>
-                    <li>ettercap</li>
-                    <li>MSF</li>
-                    <li>Nessus</li>
-                    <li>OpenVAS</li>
-                    <li>aircrack-ng</li>
-                    <li>Nikto</li>
-                    <li>burpsuite</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Design</h4>
-                <ul class="tag-list">
-                    <li>Photoshop</li>
-                    <li>Zbrush</li>
-                    <li>Softimage|XSI</li>
-                    <li>Terragen</li>
-                    <li>Gimp 2</li>
-                    <li>Inkscape</li>
-                </ul>
-            </div>
-        </div>
-      </section>
-      <section id="languages">
-        <h3>Languages</h3>
-        <div class="grid-list">
-            <div>
-                <h4>Spanish</h4>
-              native
-            </div>
-            <div>
-                <h4>English</h4>
-              professional
-            </div>
-            <div>
-                <h4>Japanese</h4>
-              basic
-            </div>
-        </div>
-      </section>
-      <section id="interests">
-        <h3>Interests</h3>
-        <div class="grid-list">
-            <div>
-                <h4>travelling</h4>
-            </div>
-            <div>
-                <h4>reading</h4>
-            </div>
-            <div>
-                <h4>watching movies and tv shows</h4>
-            </div>
-            <div>
-                <h4>video games</h4>
-            </div>
-            <div>
-                <h4>music</h4>
-            </div>
-            <div>
-                <h4>guitar playing</h4>
-            </div>
-            <div>
-                <h4>Japanese</h4>
-            </div>
-        </div>
-      </section>
   </body>
 </html>
