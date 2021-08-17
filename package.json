@@ -30,8 +30,8 @@
   },
   "homepage": "https://registry.jsonresume.org/serginator",
   "devDependencies": {
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^3.2.3",
     "jsonresume-theme-kendall": "^0.2.0",
-    "resume-cli": "^3.0.4"
+    "resume-cli": "^3.0.5"
   }
 }
