@@ -15,7 +15,7 @@
       }
     ],
     "name": "Sergio Ruiz",
-    "summary": "*FullStack JavaScript developer with 11+ years industry experience, since the age of 6 with computers and since the age of 12 dealing with code*, with strong skills in code quality, performance and continuous integration. Capacity to learn new languages and adaptability to new environments in no time thanks to his overall knowledge of languages and operative systems.",
+    "summary": "FullStack JavaScript developer with 10+ years industry experience, since the age of 6 with computers and since the age of 12 dealing with code. Strong skills in code quality, performance and continuous integration. Capacity to learn new languages and adaptability to new environments in no time thanks to his overall knowledge of languages and operative systems.",
     "picture": "https://s.gravatar.com/avatar/8ed40a0d594ec378fdcfb59daa4150a5?s=500",
     "profiles": [
       {
@@ -39,9 +39,9 @@
     {
       "company": "SERQUO (formerly known as AURIGAE)",
       "website": "http://www.serquo.com/",
-      "position": "Programmer Analyst",
+      "position": "SERQUO - Programmer Analyst",
       "startDate": "2012-12-10",
-      "summary": "Software Developer at Telefónica I+D. I've worked mainly focused in full-stack javascript, continuous integration and applying best practices, most of the time at video area developing the UI of Movistar TV set-top-boxes for LATAM, now at Cloud area developing CloudBlue APS/Connect for our CSB, both connectors and endpoints.",
+      "summary": "Software Developer at Telefónica Tech (previously at I+D). I've worked mainly focused in full-stack javascript, continuous integration and applying best practices, most of the time at video area developing the UI of Movistar TV set-top-boxes for LATAM, now at Cloud area developing CloudBlue APS/Connect for our CSB, both connectors and endpoints.",
       "highlights": [
         "2022-01 - today # Telefónica - Devi: Integrations with CSB, endpoint development in Node.js; development of Connect products and endpoints in Node.js.",
         "2019-03 - today # Telefonica - MultiCloud: Development of Connect applications (previously APS 2.2) for CloudBlue, integrating external cloud services (AWS, Azure, GCP...). Backend in AWS lambdas using Python/Node.js.",
@@ -58,7 +58,7 @@
     {
       "company": "CIBER",
       "website": "http://www.ciber.es",
-      "position": "Systems Integration Consultant - Programmer",
+      "position": "CIBER - Systems Integration Consultant",
       "startDate": "2012-01-01",
       "endDate": "2012-12-10",
       "summary": "Programmer at System Integration, I've been developing a social network, Android apps, rest services at BBVA GAE project, sites with Google Sites for internal documentation at BBVA and Telepizza's mobile app.",
@@ -72,7 +72,7 @@
     {
       "company": "CIBER",
       "website": "http://www.ciber.es",
-      "position": "Systems Integration Consultant - Junior Programmer",
+      "position": "CIBER - Junior Systems Integration Consultant",
       "startDate": "2011-06-24",
       "endDate": "2012-01-01",
       "summary": "Junior Programmer at System Integration developing a social network.",
@@ -328,36 +328,6 @@
         "Gimp 2",
         "Inkscape"
       ]
-    }
-  ],
-  "interests": [
-    {
-      "name": "travelling",
-      "summary": "Culture and landscapes everywhere!"
-    },
-    {
-      "name": "reading",
-      "summary": "I love to read books, comics or manga. Action, Sci-Fi, Fantastic, Horror..."
-    },
-    {
-      "name": "watching movies and tv shows",
-      "summary": "I like movies and tv shows. Action, Sci-Fi, Fantastic, Horror..."
-    },
-    {
-      "name": "video games",
-      "summary": "I love to play video games, PC, consoles, handhelds... And make them!"
-    },
-    {
-      "name": "music",
-      "summary": "I think life without music has no meaning, so I try to listen music every time I can. Rock, blues, jazz, hard rock, heavy metal, classical music..."
-    },
-    {
-      "name": "guitar playing",
-      "summary": "I've played guitar since 2003 during 8 years, stopped for several years and trying to play again."
-    },
-    {
-      "name": "Japanese",
-      "summary": "Studied Japanese for two years (2009, 2010), levels A1.1 and A1.2 at CSIM."
     }
   ],
   "languages": [
