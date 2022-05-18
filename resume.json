@@ -11,11 +11,11 @@
       {
         "label": "Work Email",
         "category": "email",
-        "value": "sergio.ruiz@aurigae.com"
+        "value": "sergio.ruiz@serquo.com"
       }
     ],
     "name": "Sergio Ruiz",
-    "summary": "**FullStack JavaScript developer with 9+ years industry experience, since the age of 6 with computers and since the age of 12 dealing with code**, with strong skills in code quality, performance and continuous integration. Capacity to learn new languages and adaptability to new environments in no time thanks to his overall knowledge of languages and operative systems.",
+    "summary": "**FullStack JavaScript developer with 11+ years industry experience, since the age of 6 with computers and since the age of 12 dealing with code**, with strong skills in code quality, performance and continuous integration. Capacity to learn new languages and adaptability to new environments in no time thanks to his overall knowledge of languages and operative systems.",
     "picture": "https://s.gravatar.com/avatar/8ed40a0d594ec378fdcfb59daa4150a5?s=500",
     "profiles": [
       {
@@ -43,8 +43,8 @@
       "startDate": "2012-12-10",
       "summary": "Software Developer at Telefónica I+D. I've worked mainly focused in full-stack javascript, continuous integration and applying best practices, most of the time at video area developing the UI of Movistar TV set-top-boxes for LATAM, now at Cloud area developing CloudBlue APS/Connect for our CSB, both connectors and endpoints.",
       "highlights": [
-        "2022-01 # Telefónica - Devi: Integrations with CSB, endpoint development in node.js; development of Connect products and endpoints in node.js.",
-        "2019-03 # Telefonica - Cloud Service Broker: CSB is a panel to manage users, assign resources or services, handle your account as a user... It uses CloudBlue (POA and PBA). Development of several APS 2.2 / Connect Apps to integrate external services in CSB, back-end in AWS lambdas using Python/Node.js.",
+        "2022-01 - today # Telefónica - Devi: Integrations with CSB, endpoint development in Node.js; development of Connect products and endpoints in Node.js.",
+        "2019-03 - today # Telefonica - MultiCloud: Development of Connect applications (previously APS 2.2) for CloudBlue, integrating external cloud services (AWS, Azure, GCP...). Backend in AWS lambdas using Python/Node.js.",
         "2019-01 - 2019-03 # Bankia: A simple Angular 1.x application to check fraudulent usage in ATMs",
         "2017-01 - 2019-01 # Movistar TV - Hybrid HTML: The same but using HTML instead of SVG, and Webpack instead of Grunt.js. In 2017 we made it in Vue.js, in 2018 we removed it and did everything with Webcomponents.",
         "2015-01 - 2019-01 # Movistar TV - Hybrid SVG: Development of the UI of a set-top box (STB) with satellite/cable and internet connection for TVApps and VOD, using SVG and JavaScript to communicate with the middleware. Also I've installed and configured all the continuous integration environment with Jenkins and Sonar, and made the Grunt.js tasks to automate everything, from linting or testing to opening pull requests automagically integrating Crowdin with new translations from the OBs.",
@@ -82,6 +82,14 @@
     }
   ],
   "education": [
+    {
+      "institution": "Udemy",
+      "gpa": "100%",
+      "startDate": "2020-09-12",
+      "endDate": "2020-09-22",
+      "area": "Ethical Hacking Fundamental Course - Learn From Scratch",
+      "studyType": "Course"
+    },
     {
       "institution": "Imagina Formación",
       "gpa": "100%",
@@ -144,7 +152,7 @@
       "gpa": "100%",
       "startDate": "2011-07-01",
       "endDate": "2012-10-01",
-      "area": "Software development for Android devices",
+      "area": "Creación y Desarrollo de Aplicaciones para dispositivos Android",
       "studyType": "Course"
     },
     {
@@ -248,6 +256,16 @@
         "Node.js",
         "PHP",
         "Python"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "level": "Intermediate",
+      "keywords": [
+        "AWS",
+        "Google Cloud Platform",
+        "Heroku",
+        "Azure"
       ]
     },
     {
