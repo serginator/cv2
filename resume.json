@@ -85,6 +85,14 @@
     {
       "institution": "Udemy",
       "gpa": "100%",
+      "website": "https://www.udemy.com/course/react-js-redux-es6-completo-de-0-a-experto-espanol",
+      "startDate": "2022-09-01",
+      "area": "React JS + Redux + ES6",
+      "studyType": "Course"
+    },
+    {
+      "institution": "Udemy",
+      "gpa": "100%",
       "startDate": "2020-09-12",
       "endDate": "2020-09-22",
       "area": "Ethical Hacking Fundamental Course - Learn From Scratch",
@@ -242,8 +250,10 @@
         "AngularJS",
         "Vue.js",
         "ReactJS",
+        "Redux",
         "WebComponents",
         "Polymer",
+        "TypeScript",
         "Zepto.js",
         "Underscore",
         "lodash"
@@ -265,7 +275,10 @@
         "AWS",
         "Google Cloud Platform",
         "Heroku",
-        "Azure"
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Terraform"
       ]
     },
     {
