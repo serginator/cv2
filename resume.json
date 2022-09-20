@@ -275,10 +275,7 @@
         "AWS",
         "Google Cloud Platform",
         "Heroku",
-        "Azure",
-        "Docker",
-        "Kubernetes",
-        "Terraform"
+        "Azure"
       ]
     },
     {
@@ -291,7 +288,9 @@
         "Webpack",
         "npm",
         "Unix",
-        "Docker"
+        "Docker",
+        "Kubernetes",
+        "Terraform"
       ]
     },
     {
