@@ -330,6 +330,17 @@
       ]
     },
     {
+      "name": "Machine Learning",
+      "level": "Basic",
+      "keywords": [
+        "Tensorflow",
+        "Keras",
+        "PyTorch",
+        "pandas",
+        "OpenCV"
+      ]
+    },
+    {
       "name": "Design",
       "level": "Intermediate",
       "keywords": [
