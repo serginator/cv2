@@ -41,10 +41,11 @@
       "website": "http://www.serquo.com/",
       "position": "SERQUO - Programmer Analyst",
       "startDate": "2012-12-10",
+      "endDate": "2022-10-11",
       "summary": "Software Developer at Telefónica Tech (previously at I+D). I've worked mainly focused in full-stack javascript, continuous integration and applying best practices, most of the time at video area developing the UI of Movistar TV set-top-boxes for LATAM, now at Cloud area developing CloudBlue APS/Connect for our CSB, both connectors and endpoints.",
       "highlights": [
-        "2022-01 - today # Telefónica - Devi: Integrations with CloudBlue, endpoint development in Node.js; development of Connect products and endpoints in Node.js. Development of Jenkins CI/CD pipelines.",
-        "2019-03 - today # Telefonica - MultiCloud: Development of Connect applications (previously APS 2.2) for CloudBlue, integrating external cloud services (AWS, Azure, GCP...). Backend in AWS lambdas using Python/Node.js.",
+        "2022-01 - 2022-10 # Telefónica - Devi: Integrations with CloudBlue, endpoint development in Node.js; development of Connect products and endpoints in Node.js. Development of Jenkins CI/CD pipelines.",
+        "2019-03 - 2022-10 # Telefonica - MultiCloud: Development of Connect applications (previously APS 2.2) for CloudBlue, integrating external cloud services (AWS, Azure, GCP...). Backend in AWS lambdas using Python/Node.js.",
         "2019-01 - 2019-03 # Bankia: A simple Angular 1.x application to check fraudulent usage in ATMs",
         "2017-01 - 2019-01 # Movistar TV - Hybrid HTML: The same but using HTML instead of SVG, and Webpack instead of Grunt.js. In 2017 we made it in Vue.js, in 2018 we removed it and did everything with Webcomponents.",
         "2015-01 - 2019-01 # Movistar TV - Hybrid SVG: Development of the UI of a set-top box (STB) with satellite/cable and internet connection for TVApps and VOD, using SVG and JavaScript to communicate with the middleware. Also I've installed and configured all the continuous integration environment with Jenkins and Sonar, and made the Grunt.js tasks to automate everything, from linting or testing to opening pull requests automagically integrating Crowdin with new translations from the OBs.",
@@ -85,8 +86,9 @@
     {
       "institution": "Udemy",
       "gpa": "100%",
-      "website": "https://www.udemy.com/course/react-js-redux-es6-completo-de-0-a-experto-espanol",
+      "website": "https://www.udemy.com/certificate/UC-75f0d7bc-e2a6-4c5c-86d0-f0ac9322a78e",
       "startDate": "2022-09-01",
+      "endDate": "2022-10-17",
       "area": "React JS + Redux + ES6",
       "studyType": "Course"
     },
