@@ -32,6 +32,6 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "jsonresume-theme-kendall": "^0.2.0",
-    "resume-cli": "^3.0.7"
+    "resume-cli": "^3.0.8"
   }
 }

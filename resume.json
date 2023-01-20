@@ -11,11 +11,11 @@
       {
         "label": "Work Email",
         "category": "email",
-        "value": "sergio.ruiz@serquo.com"
+        "value": "sergio.ruiz@taxfix.es"
       }
     ],
     "name": "Sergio Ruiz",
-    "summary": "FullStack JavaScript developer with 10+ years industry experience, since the age of 6 with computers and since the age of 12 dealing with code. Strong skills in code quality, performance and continuous integration. Capacity to learn new languages and adaptability to new environments in no time thanks to his overall knowledge of languages and operative systems.",
+    "summary": "FullStack JavaScript developer with 11+ years industry experience, since the age of 6 with computers and since the age of 12 dealing with code. Strong skills in code quality, performance and continuous integration. Capacity to learn new languages and adaptability to new environments in no time thanks to his overall knowledge of languages and operative systems.",
     "picture": "https://s.gravatar.com/avatar/8ed40a0d594ec378fdcfb59daa4150a5?s=500",
     "profiles": [
       {
@@ -36,6 +36,16 @@
     ]
   },
   "work": [
+    {
+      "company": "Taxfix",
+      "website": "http://www.taxfix.de",
+      "position": "TAXFIX - Software Engineer",
+      "startDate": "2022-12-16",
+      "summary": "Software Engineer at Taxfix, focused on full-stack javascript development, mainly in React.js and Node.js.",
+      "highlights": [
+        "2022-12 - actual # Development of internal applications in React.js and Node.js endpoints."
+    ]
+    },
     {
       "company": "SERQUO (formerly known as AURIGAE)",
       "website": "http://www.serquo.com/",
