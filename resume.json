@@ -39,19 +39,8 @@
     {
       "company": "Taxfix",
       "website": "http://www.taxfix.de",
-      "position": "TAXFIX - Senior Software Engineer",
-      "startDate": "2023-06-01",
-      "summary": "Senior Software Engineer at Taxfix, focused on full-stack javascript development, mainly React.js and Node.js with TypeScript, and in a GCP environment.",
-      "highlights": [
-        "2023-06 - actual # Development of internal applications in React.js and Node.js endpoints."
-      ]
-    },
-    {
-      "company": "Taxfix",
-      "website": "http://www.taxfix.de",
       "position": "TAXFIX - Software Engineer",
       "startDate": "2022-12-16",
-      "endDate": "2023-06-01",
       "summary": "Software Engineer at Taxfix, focused on full-stack javascript development, mainly React.js and Node.js with TypeScript, and in a GCP environment.",
       "highlights": [
         "2022-12 - 2023-06 # Development of internal applications in React.js and Node.js endpoints."
