@@ -15,7 +15,7 @@
       }
     ],
     "name": "Sergio Ruiz",
-    "summary": "Experienced FullStack JavaScript developer with over 12 years of industry experience, including a lifelong passion for computers and coding since a young age. Demonstrates expertise in code quality, performance optimization, and continuous integration. Quick learner with the ability to adapt to new languages and environments seamlessly, thanks to a comprehensive understanding of various programming languages and operating systems.",
+    "summary": "Experienced FullStack JavaScript developer with over 13 years of industry experience, including a lifelong passion for computers and coding since a young age. Demonstrates expertise in code quality, performance optimization, and continuous integration. Quick learner with the ability to adapt to new languages and environments seamlessly, thanks to a comprehensive understanding of various programming languages and operating systems.",
     "picture": "https://s.gravatar.com/avatar/8ed40a0d594ec378fdcfb59daa4150a5?s=500",
     "profiles": [
       {
@@ -41,9 +41,9 @@
       "website": "http://www.taxfix.de",
       "position": "TAXFIX - Software Engineer",
       "startDate": "2022-12-16",
-      "summary": "Software Engineer at Taxfix, focused on full-stack javascript development, mainly React.js and Node.js with TypeScript, and in a GCP environment.",
+      "summary": "Software Engineer at Taxfix, focused on full-stack javascript development, mainly Node.js, Golang and React.js with TypeScript, and in a GCP environment.",
       "highlights": [
-        "2022-12 - present # Development of internal applications in React.js and Node.js endpoints."
+        "2022-12 - present # Development of internal applications to handle taxes submissions in React.js, with Golang and Node.js for the endpoints."
       ]
     },
     {
@@ -78,7 +78,7 @@
         "2012-06 - 2012-09 # BBVA - Google App Engine (GAE) Team: Development of services and apps for BBVA using Google App Engine (GAE). After the development of several REST services, I created some documentation webs for internal projects using Google Sites and developing gadgets in Google Apps Script.",
         "2012-02 - 2012-02 # HEEL - Android application: Development of a tablet application (Android) for a pharmaceutical laboratory. This app is used to let pharmacists to fill and sign contracts of sale and purchase, with a pharmacy database. It captures the form as a digital image and stores the filled form in CVS format to post-process it.",
         "2011-06 - 2012-06 # TUYYOU - Development of a Social Network: Continuing the development."
-    ]
+      ]
     },
     {
       "company": "CIBER",
@@ -89,7 +89,7 @@
       "summary": "Junior Programmer at System Integration developing a social network.",
       "highlights": [
         "2011-06 - 2012-06 # TUYYOU - Development of a Social Network: Social network development using ELGG and modifying it's core. It pretended to join a buying platform with a professional network, offering the possibility to earn money from your referrals. It was running for several years, being announced in several media around the country."
-    ]
+      ]
     }
   ],
   "education": [
@@ -244,14 +244,7 @@
     {
       "name": "Web Development",
       "level": "Advanced",
-      "keywords": [
-        "HTML5",
-        "CSS3",
-        "LESS",
-        "JavaScript",
-        "REST",
-        "AJAX"
-      ]
+      "keywords": ["HTML5", "CSS3", "LESS", "JavaScript", "REST", "AJAX"]
     },
     {
       "name": "JavaScript",
@@ -274,21 +267,12 @@
     {
       "name": "Backend",
       "level": "Advanced",
-      "keywords": [
-        "Node.js",
-        "PHP",
-        "Python"
-      ]
+      "keywords": ["Node.js", "PHP", "Python", "Golang"]
     },
     {
       "name": "Cloud",
       "level": "Intermediate",
-      "keywords": [
-        "AWS",
-        "Google Cloud Platform",
-        "Heroku",
-        "Azure"
-      ]
+      "keywords": ["AWS", "Google Cloud Platform", "Heroku", "Azure"]
     },
     {
       "name": "CI",
@@ -308,22 +292,12 @@
     {
       "name": "Databases",
       "level": "Intermediate",
-      "keywords": [
-        "MySQL",
-        "SQLite",
-        "NoSQL",
-        "MongoDB"
-      ]
+      "keywords": ["MySQL", "SQLite", "NoSQL", "MongoDB"]
     },
     {
       "name": "SCM",
       "level": "Expert",
-      "keywords": [
-        "Git",
-        "Github",
-        "SVN",
-        "TFS"
-      ]
+      "keywords": ["Git", "Github", "SVN", "TFS"]
     },
     {
       "name": "Security",
@@ -344,13 +318,7 @@
     {
       "name": "Machine Learning",
       "level": "Beginner",
-      "keywords": [
-        "Tensorflow",
-        "Keras",
-        "PyTorch",
-        "pandas",
-        "OpenCV"
-      ]
+      "keywords": ["Tensorflow", "Keras", "PyTorch", "pandas", "OpenCV"]
     },
     {
       "name": "Design",
