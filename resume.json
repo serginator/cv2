@@ -39,11 +39,23 @@
     {
       "company": "Taxfix",
       "website": "http://www.taxfix.de",
+      "position": "TAXFIX - Senior Software Engineer",
+      "startDate": "2024-11-01",
+      "summary": "Senior Software Engineer at Taxfix, focused on full-stack development, mainly Node.js, Golang, React.js and Next.js with TypeScript, using GCP infra.",
+      "highlights": [
+        "2024-11 - present # Development of internal applications to handle taxes submissions in React.js and Next.js, with Golang and Node.js for the endpoints.",
+        "2024-11 - present # Research new features using VertexAI and LLM."
+      ]
+    },
+    {
+      "company": "Taxfix",
+      "website": "http://www.taxfix.de",
       "position": "TAXFIX - Software Engineer",
       "startDate": "2022-12-16",
-      "summary": "Software Engineer at Taxfix, focused on full-stack javascript development, mainly Node.js, Golang and React.js with TypeScript, and in a GCP environment.",
+      "endDate": "2024-11-01",
+      "summary": "Software Engineer at Taxfix, focused on full-stack development, mainly Node.js, Golang, React.js and Next.js with TypeScript,  using GCP infra.",
       "highlights": [
-        "2022-12 - present # Development of internal applications to handle taxes submissions in React.js, with Golang and Node.js for the endpoints."
+        "2022-12 - 2024-11 # Development of internal applications to handle taxes submissions in React.js and Next.js, with Golang and Node.js for the endpoints."
       ]
     },
     {
