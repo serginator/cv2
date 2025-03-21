@@ -44,7 +44,8 @@
       "summary": "Senior Software Engineer at Taxfix, focused on full-stack development, mainly Node.js, Golang, React.js and Next.js with TypeScript, using GCP infra. Starting to navigate into the world of LLMs.",
       "highlights": [
         "2024-11 - present # Development of internal applications to handle taxes submissions in React.js and Next.js, with Golang and Node.js for the endpoints.",
-        "2024-11 - present # Research new features using VertexAI and LLM."
+        "2024-11 - present # Research new features using VertexAI and LLM.",
+        "2025-02 # I've driven and released the first company's AI feature to production to reduce the handling time of our users by several minutes."
       ]
     },
     {
@@ -331,7 +332,15 @@
     {
       "name": "Generative AI",
       "level": "Intermediate",
-      "keywords": ["LLMs", "CLIP", "SD", "Lora", "diffusers", "VertexAI"]
+      "keywords": [
+        "LLMs",
+        "CLIP",
+        "SD",
+        "Lora",
+        "diffusers",
+        "VertexAI",
+        "Gemini"
+      ]
     },
     {
       "name": "Machine Learning",
