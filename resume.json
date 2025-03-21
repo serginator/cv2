@@ -45,7 +45,7 @@
       "highlights": [
         "2024-11 - present # Development of internal applications to handle taxes submissions in React.js and Next.js, with Golang and Node.js for the endpoints.",
         "2024-11 - present # Research new features using VertexAI and LLM.",
-        "2025-02 # I've driven and released the first company's AI feature to production to reduce the handling time of our users by several minutes."
+        "2025-02 # I've driven, developed and released the first company's AI feature to production to reduce the handling time of our users by several minutes. It involved testing different models (gemini's, openai's, other opensource ones like llama 8b or 70b) and infrastructures, checking accuracies, latencies, prices... Also checking different libraries for Python and Golang, developing a feedback system to constantly improve the prompt, setting dashboards in snowflake to monitor the usage, adoption, ratings..."
       ]
     },
     {
