@@ -15,7 +15,7 @@
       }
     ],
     "name": "Sergio Ruiz",
-    "summary": "Experienced FullStack JavaScript developer with 13+ years of industry experience, including a lifelong passion for computers and coding since a young age. Demonstrates expertise in code quality, performance optimization, and continuous integration. Quick learner with the ability to adapt to new languages and environments seamlessly, thanks to a comprehensive understanding of various programming languages and operating systems.",
+    "summary": "Experienced FullStack JavaScript developer with 14+ years of industry experience, including a lifelong passion for computers and coding since a young age. Demonstrates expertise in code quality, performance optimization, and continuous integration. Quick learner with the ability to adapt to new languages and environments seamlessly, thanks to a comprehensive understanding of various programming languages and operating systems.",
     "picture": "https://s.gravatar.com/avatar/8ed40a0d594ec378fdcfb59daa4150a5?s=500",
     "profiles": [
       {
@@ -41,11 +41,12 @@
       "website": "http://www.taxfix.de",
       "position": "TAXFIX - Senior Software Engineer",
       "startDate": "2024-11-01",
-      "summary": "Senior Software Engineer at Taxfix, focused on full-stack development, mainly Node.js, Golang, React.js and Next.js with TypeScript, using GCP infra. Starting to navigate into the world of LLMs.",
+      "summary": "Senior Software Engineer at Taxfix, focused on full-stack development, mainly Node.js, Golang, React.js and Next.js with TypeScript, using GCP infra. Starting to navigate into the world of LLMs to enhance our developments and our tools.",
       "highlights": [
-        "2024-11 - present # Development of internal applications to handle taxes submissions in React.js and Next.js, with Golang and Node.js for the endpoints.",
-        "2024-11 - present # Research new features using VertexAI and LLM.",
-        "2025-02 # I've driven, developed and released the first company's AI feature to production to reduce the handling time of our users by several minutes. It involved testing different models (gemini's, openai's, other opensource ones like llama 8b or 70b) and infrastructures, checking accuracies, latencies, prices... Also checking different libraries for Python and Golang, developing a feedback system to constantly improve the prompt, setting dashboards in snowflake to monitor the usage, adoption, ratings..."
+        "2024-11 - present # Development of internal applications to handle taxes submissions in React.js and Next.js, with Golang and Node.js for the endpoints, using MySQL and MongoDB and GCP infra",
+        "2024-11 - present # Research new features using VertexAI, Gemini API, and LLMs.",
+        "2025-02 # I've driven, developed and released the first company's AI feature to production to reduce the handling time of our users by several minutes. It involved testing different models (gemini's, openai's, other opensource ones like llama 8b or 70b) and infrastructures, checking accuracies, latencies, prices... Also checking different libraries for Python and Golang, developing a feedback system to constantly improve the prompt, setting dashboards in snowflake to monitor the usage, adoption, ratings...",
+        "2025-05 # Initiated the use of well curated prompts in VSCode and Cursor to generate tests automatically for our codebase to increase the coverage easily"
       ]
     },
     {
@@ -339,7 +340,9 @@
         "Lora",
         "diffusers",
         "VertexAI",
-        "Gemini"
+        "Gemini",
+        "LangChain",
+        "OpenAI"
       ]
     },
     {
