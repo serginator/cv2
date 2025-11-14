@@ -45,8 +45,10 @@
       "highlights": [
         "2024-11 - present # Development of internal applications to handle taxes submissions in React.js and Next.js, with Golang and Node.js for the endpoints, using MySQL and MongoDB and GCP infra",
         "2024-11 - present # Research new features using VertexAI, Gemini API, and LLMs.",
-        "2025-02 # I've driven, developed and released the first company's AI feature to production to reduce the handling time of our users by several minutes. It involved testing different models (gemini's, openai's, other opensource ones like llama 8b or 70b) and infrastructures, checking accuracies, latencies, prices... Also checking different libraries for Python and Golang, developing a feedback system to constantly improve the prompt, setting dashboards in snowflake to monitor the usage, adoption, ratings...",
-        "2025-05 # Initiated the use of well curated prompts in VSCode and Cursor to generate tests automatically for our codebase to increase the coverage easily"
+        "2024-11 - 2025-05 # I've driven, developed and released the first company's AI feature to production to reduce the handling time of our users by several minutes. It involved testing different models (gemini's, openai's, other opensource ones like llama 8b or 70b) and infrastructures, checking accuracies, latencies, prices... Also checking different libraries for Python and Golang, developing a feedback system to constantly improve the prompt, setting dashboards in snowflake to monitor the usage, adoption, ratings...",
+        "2025-05 # Initiated the use of well curated prompts in VSCode and Cursor to generate tests automatically for our codebase to increase the coverage easily",
+        "2025-09 - present # Started exploring MCP and its potential providing context during development and also enhancing our tools.",
+        "2025-09 - present # Started automating development using n8n and coding agents, from Jira to Draft PRs."
       ]
     },
     {
@@ -107,6 +109,69 @@
     }
   ],
   "education": [
+    {
+      "institution": "LinkedIn Learning",
+      "gpa": "100%",
+      "website": "https://www.linkedin.com/learning/certificates/278fdf965e923435a4bceed8a4a035f38c3696de8d9b79bcc5ed59ffc6c5c04e?u=190862393",
+      "startDate": "2025-08-29",
+      "endDate": "2025-08-29",
+      "area": "AI Pricing and ROI: A Technical Breakdown",
+      "studyType": "Course"
+    },
+    {
+      "institution": "LinkedIn Learning",
+      "gpa": "100%",
+      "website": "https://www.linkedin.com/learning/certificates/e6efce90688959828a0bae4e67cdc0740fabb907b362117e9705bee95e1b6305?u=190862393",
+      "startDate": "2025-08-28",
+      "endDate": "2025-08-28",
+      "area": "Complete Guide to Evaluating Large Language Models (LLMs)",
+      "studyType": "Course"
+    },
+    {
+      "institution": "LinkedIn Learning",
+      "gpa": "100%",
+      "website": "https://www.linkedin.com/learning/certificates/7a15eb55b8488f2934b055f61aded745ae7b36d4ec199d35175d5a67b8c03afb?u=190862393",
+      "startDate": "2025-08-22",
+      "endDate": "2025-08-22",
+      "area": "Agentic AI Fundamentals: Architectures, Frameworks, and Applications",
+      "studyType": "Course"
+    },
+    {
+      "institution": "LinkedIn Learning",
+      "gpa": "100%",
+      "website": "https://www.linkedin.com/learning/certificates/cf8a6f55be3f5b28e636cbe5ab7adc31caa4e7a17a2277f3946c3d5695e37a5f?u=190862393",
+      "startDate": "2025-08-22",
+      "endDate": "2025-08-22",
+      "area": "Agentic AI for Developers: Concepts and Application for Enterprises",
+      "studyType": "Course"
+    },
+    {
+      "institution": "LinkedIn Learning",
+      "gpa": "100%",
+      "website": "https://www.linkedin.com/learning/certificates/df1fd09e371e385945d402621b7587ed5cef9681601dde342ae51b4677f38e37?u=190862393",
+      "startDate": "2025-08-22",
+      "endDate": "2025-08-22",
+      "area": "Building Agents with Vertex AI",
+      "studyType": "Course"
+    },
+    {
+      "institution": "LinkedIn Learning",
+      "gpa": "100%",
+      "website": "https://www.linkedin.com/learning/certificates/2a82b46f5fa82c65f070d2892804a3a413c9787f49c3ad939ac17a712458e1f0?u=190862393",
+      "startDate": "2025-08-21",
+      "endDate": "2025-08-21",
+      "area": "Advanced RAG Applications with Vector Databases",
+      "studyType": "Course"
+    },
+    {
+      "institution": "LinkedIn Learning",
+      "gpa": "100%",
+      "website": "https://www.linkedin.com/learning/certificates/8f62cc17c716ae05f7037b6f3ab5a615784fdd8d25a2cc9d7c145b71b8b2c413?u=190862393",
+      "startDate": "2025-08-14",
+      "endDate": "2025-08-14",
+      "area": "Advanced Prompt Engineering Techniques",
+      "studyType": "Course"
+    },
     {
       "institution": "Udemy",
       "gpa": "100%",
