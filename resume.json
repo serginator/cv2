@@ -3,7 +3,7 @@
     "theme": "kendall"
   },
   "basics": {
-    "label": "FullStack JavaScript Developer",
+    "label": "Senior Software Developer",
     "class": "Programmer",
     "website": "http://www.serginator.com",
     "email": "serginator@gmail.com",
@@ -15,7 +15,7 @@
       }
     ],
     "name": "Sergio Ruiz",
-    "summary": "Experienced FullStack JavaScript developer with 14+ years of industry experience, including a lifelong passion for computers and coding since a young age. Demonstrates expertise in code quality, performance optimization, and continuous integration. Quick learner with the ability to adapt to new languages and environments seamlessly, thanks to a comprehensive understanding of various programming languages and operating systems.",
+    "summary": "Experienced Senior Software developer with 14+ years of industry experience, including a lifelong passion for computers and coding since a young age. Demonstrates expertise in code quality, performance optimization, Gen AI and continuous integration. Quick learner with the ability to adapt to new languages and environments seamlessly, thanks to a comprehensive understanding of various programming languages and operating systems.",
     "picture": "https://s.gravatar.com/avatar/8ed40a0d594ec378fdcfb59daa4150a5?s=500",
     "profiles": [
       {
@@ -46,7 +46,7 @@
         "2025-09 - present # Started automating development using n8n and coding agents, from Jira to Draft PRs.",
         "2025-09 - present # Started exploring MCP and its potential providing context during development and also enhancing our tools.",
         "2025-05 # Initiated the use of well curated prompts in VSCode and Cursor to generate tests automatically for our codebase to increase the coverage easily",
-        "2024-11 - present # Development of internal applications to handle taxes submissions in React.js and Next.js, with Golang and Node.js for the endpoints, using MySQL and MongoDB and GCP infra",
+        "2024-11 - present # Development of internal applications to handle taxes submissions in React.js and Next.js, with Golang and Node.js for the backend, using MySQL, MongoDB and GCP infra",
         "2024-11 - present # Research new features using VertexAI, Gemini API, and LLMs.",
         "2024-11 - 2025-05 # I've driven, developed and released the first company's AI feature to production to reduce the handling time of our users by several minutes. It involved testing different models (gemini's, openai's, other opensource ones like llama 8b or 70b) and infrastructures, checking accuracies, latencies, prices... Also checking different libraries for Python and Golang, developing a feedback system to constantly improve the prompt, setting dashboards in snowflake to monitor the usage, adoption, ratings..."
       ]
@@ -401,11 +401,12 @@
       "keywords": [
         "LLMs",
         "CLIP",
-        "SD",
+        "StableDiffusion",
         "Lora",
         "diffusers",
         "VertexAI",
         "Gemini",
+        "MCP",
         "LangChain",
         "OpenAI"
       ]
